@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightcyan;
+    margin-left: 2em;
+        
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    background-color: silver;
+}
+th{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em, 3em;
+}
+td{
+  background-color: white;
+  padding: 0 1em;
+}
+
+.wolny {
+    background-color: lightgreen;
+}
+.zajety {
+    background-color: lightcoral;
+}
+

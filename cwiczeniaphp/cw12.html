@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+          <title>Moja pierwsza strona HTML</title>
+          <link rel="stylesheet" href="411.css" />
+  </head>
+  <body>
+     <a id="gora"></a>
+  <h1> Zażółć gęślą jaźń</h1>
+  <h2> Zażółć gęślą jaźń</h1>
+  <h3> Zażółć gęślą jaźń</h1>
+  <!--komentarz -->
+   <p class="jeden">Akapit tekstu. Uwaga zawijanie wierszy jest automatyczne, a "białe"  znaki 
+   spacje            entery     i tabulatory 
+   są pomijane </p>
+  
+  <p class="jeden" >Drugi akapit tekstu.<br />
+  Wymuszona nowa linia <br />
+  nowa linia.</p>
+  <p class="dwa">proste formatowanie: <b>pogrubione</b>, <i>pochylone</i>,<big>powiększone</big>, <small>pomiejszone</small> itd.
+  H<sub>2</sub>0, E=mc<sup>2</sup>
+  </p> <!-- niezaleca sie uzywac tego choc proste dla programistow-->
+  <!-- listy-->
+  <ul type="square">  <!--wypunktowana lista, ol numerowana-->
+  <li>pierwsza</li>
+  <li>druga</li>
+  <li>pierwsza</li>
+  </ul>
+  
+   <ol type="a"> <!--typ a zmieni ze zamiast cyfr litery a typ I to rzymskie-->
+ <li>pierwsza</li>
+  <li>druga</li>
+  <li>pierwsza</li>
+  </ol>
+  
+  
+   <ol type="I" start="3998"> <!--typ a zmieni ze zamiast cyfr litery a typ I to rzymskie-->
+ <li>pierwsza</li>
+  <li>druga</li>
+  <li>pierwsza</li>
+  </ol>
+  
+  <!--obrazki, alt to tekst alternatywny -->
+  <img src="http://guminski.net/pc1.png" alt="pececik" /> 
+  <br />
+  <!--odnosniki-->
+  <a href="http://php.net">Podrecznik php</a><br />
+        <!--  nowa moda z pominieciem http, zeby zawsze sam //php tylko trzeba miec pewnosc ze jest dostepne po https    -->
+    <a href="#gora">Poczatek strony</a> <!--odnosnik do gory, moze byc do drugie j\strony "/.druga.html#gora"-->
+     <a href="#">test</a><!--nie przenosi nigdzie ale mozna w to kliknac-->
+     <a href="http://w3shools.com">
+          <br /> <img src="http://guminski.net/pc1.png" alt="pececik" /> 
+     </a>
+     <!--fragment, cos co dzieli linie, iezalezny element to div i span wyroznia literke, do css-->
+     <div>   Fragment <span>t</span>esktu</div>
+     <!--tabela-->
+     <table border="1">
+             <thead>  <!--th tylko w naglowko\u, potem table datathead i stopka miala byc jak zagniezdzone okienka w excelu ale nie dziala w zadnej przegladarce-->
+              <tr><th>lp.</th><th>nazwa.</th><th>cena</th></tr>
+              
+              </thead>
+             <tbody>
+             
+             <tr><td>1</td><td>kawa</td><td>5,00</td></tr>
+             <tr><td>1</td><td>kawa</td><td>5,00</td></tr>
+              <tr><td>1</td><td>kawa</td><td>5,00</td></tr> 
+              </tbody>
+             <tfoot>
+             </tfoot>
+     </table>
+     
+     
+  </body>
+  
+</html>
